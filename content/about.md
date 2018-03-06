@@ -1,8 +1,8 @@
 ---
 title: "About"
-description: "Everything you need to know about how to become an expert in Hugo After Dark"
-date: 2018-03-05
-publishdate: 2018-03-05
+description: "About how to become an expert in Hugo After Dark"
+date: 2018-03-06
+publishdate: 2018-03-06
 author: "Marius Rugan"
 
 images: [

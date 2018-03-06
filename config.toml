@@ -27,12 +27,12 @@ pygmentsOptions = "linenos=true" # add line numbers to highlighted blocks
 	name = "Posts"
 	weight = 2
 	identifier = "posts"
-	url = "/posts/"
+	url = "/posts"
 [[menu.main]]
 	name = "About"
 	weight = 3
 	identifier = "about"
-	url = "/about"
+	url = "/about/"
 
 [[params]]
 	description = "" # Suggested, controls default description meta
