@@ -1,15 +1,14 @@
-#
-# https://gohugo.io/getting-started/configuration/#all-configuration-settings
-#
-
-baseURL = "https://www.rugan.me/" # Controls base URL
+baseURL = "https://www.rugan.me" # Controls base URL
 languageCode = "en-us" # Controls site language
+
+defaultContentLanguage = "en" # ???
+
 title = "::: rugan.me :::" # Homepage title and page title suffix
 theme = "after-dark" # Set default theme
 paginate = 5 # Number of posts to show before paginating
 enableRobotsTXT = true # Suggested, enable robots.txt file
 googleAnalytics = "UA-1234567" # Optional, add tracking Id for analytics
-disqusShortname = "" # Optional, add Disqus shortname for comments
+disqusShortname = "mariusrugan" # Optional, add Disqus shortname for comments
 SectionPagesMenu = "main" # Enable menu system for lazy bloggers
 footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
 
@@ -18,29 +17,63 @@ footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
 pygmentsCodeFences = true
 pygmentsOptions = "linenos=true" # add line numbers to highlighted blocks
 
-[[menu.main]]
-	name = "Home"
-	weight = 1
-	identifier = "home"
-	url = "/"
-[[menu.main]]
-	name = "Posts"
-	weight = 2
-	identifier = "posts"
-	url = "/posts"
-[[menu.main]]
-	name = "About"
-	weight = 3
-	identifier = "about"
-	url = "/about/"
+[taxonomies]
+group = "groups"
 
-[[params]]
-	description = "" # Suggested, controls default description meta
-	author = "" # Optional, controls author name display on posts
-	hide_author = false # Optional, set true to hide author name on posts
-	show_menu = false # Optional, set true to enable section menu
-	powered_by = false # Optional, set false to disable credits
-	images = [
-		"https://source.unsplash.com/category/technology/1600x900"
-	] # Suggested, controls default Open Graph images
-	theme_variant = "hack dark-grey" # Optional, for use to overriding default theme
+[languages]
+    [languages.en]
+    weight = 0
+    title  = ":: rugan.me ::"
+    [[languages.en.menu.main]]
+      url = "/en/"
+      name = "Home"
+      identifier = "home"
+      weight = 0
+    [[languages.en.menu.main]]
+      url = "/posts/"
+      name = "Posts"
+      identifier = "posts"
+      weight = 1
+    [[languages.en.menu.main]]
+      url = "/en/about"
+      name = "About"
+      identifier = "about"
+      weight = 2
+    [[languages.en.menu.main]]
+      url = "/nl/"
+      name = "NL ::: ::: :::"
+      identifier = "nl"
+      weight = -1
+
+    [languages.nl]
+    weight = 1
+    title = ":: rugan.me ::"
+    [[languages.nl.menu.main]]
+        url = "/nl/"
+        name = "Thuis"
+        weight = 0
+    [[languages.nl.menu.main]]
+        url = "/posts/"
+        name = "Nieuws"
+        weight = 1
+    [[languages.nl.menu.main]]
+        url = "/nl/over"
+        name = "Over"
+        identifier = "over"
+        weight = 2
+    [[languages.nl.menu.main]]
+        url = "/en/"
+        name = "EN ::: ::: :::"
+        identifier = "en"
+        weight = -1
+
+[params]
+    description = "" # Suggested, controls default description meta
+    author = "" # Optional, controls author name display on posts
+    hide_author = false # Optional, set true to hide author name on posts
+    show_menu = true # Optional, set true to enable section menu
+    powered_by = false # Optional, set false to disable credits
+    images = [
+        "https://source.unsplash.com/category/technology/1600x900"
+    ] # Suggested, controls default Open Graph images
+    related_content_limit = 1 # <???>

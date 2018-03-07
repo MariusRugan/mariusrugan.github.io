@@ -1,5 +1,6 @@
 ---
 title: "My First Post After Dark"
+url: "/en/posts/my-first-post"
 description: "Everything you need to know to become an expert in Hugo After Dark"
 date: 2018-03-05
 publishdate: 2018-03-05
@@ -13,8 +14,6 @@ keywords: [
   "after-dark hugo",
   "link building"
 ]
-
-slug: "my-first-post"
 
 tags: ["golang", "hugo"]
 categories: ["web development"]

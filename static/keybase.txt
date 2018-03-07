@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/mariusrugan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://rugan.me
+  * I am mariusrugan (https://keybase.io/mariusrugan) on keybase.
+  * I have a public key ASBa-RzzkW0VnY7dPoRaGLFXnaqvi245z5LyTA1H6afBygo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01011bb75036757057e67f043d966e24630fef1c70f34a5a916f36c15c156c639a4b0a",
+      "host": "keybase.io",
+      "kid": "01205af91cf3916d159d8edd3e845a18b1579daaaf8b6e39cf92f24c0d47e9a7c1ca0a",
+      "uid": "ab134d6024443999f09f787b4e414919",
+      "username": "mariusrugan"
+    },
+    "merkle_root": {
+      "ctime": 1520424694,
+      "hash": "b74ff4a56274c4453acb31e6ab31d01be1a1ec6554e471884cd426704626a5fa67dc9de15ad6eeb625e8844fc3aa3ffbd8a93e56b903fbf9803374be89618bf5",
+      "hash_meta": "2919a3ab6cce93b4bdf5534d83f54ea381e3afcd9ca316d168bbae044c89ce5b",
+      "seqno": 2196018
+    },
+    "service": {
+      "hostname": "rugan.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.45"
+  },
+  "ctime": 1520424708,
+  "expire_in": 504576000,
+  "prev": "0eb0677bf88c478b7ef057c41aa50920fa58befe46a2c1220c1056a229c3b9c4",
+  "seqno": 58,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgWvkc85FtFZ2O3T6EWhixV52qr4tuOc+S8kwNR+mnwcoKp3BheWxvYWTFA0R7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMWJiNzUwMzY3NTcwNTdlNjdmMDQzZDk2NmUyNDYzMGZlZjFjNzBmMzRhNWE5MTZmMzZjMTVjMTU2YzYzOWE0YjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNWFmOTFjZjM5MTZkMTU5ZDhlZGQzZTg0NWExOGIxNTc5ZGFhYWY4YjZlMzljZjkyZjI0YzBkNDdlOWE3YzFjYTBhIiwidWlkIjoiYWIxMzRkNjAyNDQ0Mzk5OWYwOWY3ODdiNGU0MTQ5MTkiLCJ1c2VybmFtZSI6Im1hcml1c3J1Z2FuIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTIwNDI0Njk0LCJoYXNoIjoiYjc0ZmY0YTU2Mjc0YzQ0NTNhY2IzMWU2YWIzMWQwMWJlMWExZWM2NTU0ZTQ3MTg4NGNkNDI2NzA0NjI2YTVmYTY3ZGM5ZGUxNWFkNmVlYjYyNWU4ODQ0ZmMzYWEzZmZiZDhhOTNlNTZiOTAzZmJmOTgwMzM3NGJlODk2MThiZjUiLCJoYXNoX21ldGEiOiIyOTE5YTNhYjZjY2U5M2I0YmRmNTUzNGQ4M2Y1NGVhMzgxZTNhZmNkOWNhMzE2ZDE2OGJiYWUwNDRjODljZTViIiwic2Vxbm8iOjIxOTYwMTh9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoicnVnYW4ubWUiLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC40NSJ9LCJjdGltZSI6MTUyMDQyNDcwOCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiIwZWIwNjc3YmY4OGM0NzhiN2VmMDU3YzQxYWE1MDkyMGZhNThiZWZlNDZhMmMxMjIwYzEwNTZhMjI5YzNiOWM0Iiwic2Vxbm8iOjU4LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQNLPJ+BLp9b21orsc85TAVaj/UeHN2wfiMjXeHYDvN6tV51jrJN3BKQfAXiq6S4xP1Eeqn4UXsIBUYB3VryBfg2oc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBFHlGZ/MvLCM3ah2afCDuVfkhFpJ/yoJwmi5OqrgazPKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mariusrugan
+
+==================================================================
